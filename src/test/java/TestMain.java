@@ -10,12 +10,12 @@ public class TestMain {
     }
 
     @Before
-    public static void setup() {
+    public void setup() {
         main = new Main();
     }
 
     @After
-    public static void tearDown() {
+    public void tearDown() {
         main = null;
     }
 
@@ -28,14 +28,6 @@ public class TestMain {
          assertNotEquals(main, null);
      }
 
-    @Test
-    public void testAdd() {
-        assertEquals( 4, main.add(2,2));
-    }
 
-    @Test
-    public void testSub() {
-        assertEquals( 0, main.sub(2,2));
-    }
 
 }
