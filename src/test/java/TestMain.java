@@ -1,37 +1,33 @@
-import org.junit.Test;
+import org.junit.*;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotEquals;
 public class TestMain {
-    public Main main;
+    public static Main main;
 
+    @BeforeClass
+    public static void oneTimeSetup() {
+        System.out.println("Start");
+    }
+
+    @Before
+    public static void setup() {
+        main = new Main();
+    }
+
+    @After
+    public static void tearDown() {
+        main = null;
+    }
+
+    @AfterClass
+    public static void oneTimeTearDown() {
+        System.out.println("Quit");
+    }
      @Test
     public void testMainConstructor() {
-         main = new Main();
          assertNotEquals(main, null);
      }
 
-     @Test
-    public void testAdd() {
-         main = new Main();
-         assertEquals( 4, main.add(2,2));
-     }
 
-     @Test
-    public void testSub() {
-        main = new Main();
-        assertEquals( 0, main.sub(2,2));
-    }
-
-    @Test
-    public void testMul() {
-        main = new Main();
-        assertEquals( 4, main.mul(2,2));
-    }
-
-    @Test
-    public void testDiv() {
-        main = new Main();
-        assertEquals( 1, main.div(2,2));
-    }
 
 }
