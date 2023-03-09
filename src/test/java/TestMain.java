@@ -28,6 +28,14 @@ public class TestMain {
          assertNotEquals(main, null);
      }
 
+    @Test
+    public void testAdd() {
+        assertEquals( 4, main.add(2,2));
+    }
 
+    @Test
+    public void testSub() {
+        assertEquals( 0, main.sub(2,2));
+    }
 
 }
