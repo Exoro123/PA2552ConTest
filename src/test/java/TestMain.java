@@ -42,7 +42,7 @@ public class TestMain {
     public void testSub() {
         assertEquals( 0, main.sub(2,2));
         assertEquals( -6, main.sub(2,8));
-        assertEquals( 0, main.sub(10,4));
+        assertEquals( 6, main.sub(10,4));
         assertEquals( -4, main.sub(-2,2));
         assertEquals( 0, main.sub(-2,-2));
     }
