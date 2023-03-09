@@ -22,6 +22,16 @@ public class TestMain {
         assertEquals( 0, main.sub(2,2));
     }
 
+    @Test
+    public void testMul() {
+        main = new Main();
+        assertEquals( 4, main.mul(2,2));
+    }
 
+    @Test
+    public void testDiv() {
+        main = new Main();
+        assertEquals( 1, main.div(2,2));
+    }
 
 }
