@@ -1,6 +1,6 @@
 import org.junit.*;
+import static org.junit.Assert.*;
 
-import static org.junit.Assert.assertNotEquals;
 public class TestMain {
     public static Main main;
 
@@ -28,6 +28,14 @@ public class TestMain {
          assertNotEquals(main, null);
      }
 
+    @Test
+    public void testAdd() {
+        assertEquals( 4, main.add(2,2));
+    }
 
+    @Test
+    public void testSub() {
+        assertEquals( 0, main.sub(2,2));
+    }
 
 }
