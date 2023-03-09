@@ -15,4 +15,10 @@ public class TestMain {
          main = new Main();
          assertEquals( 4, main.add(2,2));
      }
+
+     @Test
+    public void testSub() {
+        main = new Main();
+        assertEquals( 0, main.sub(2,2));
+    }
 }
