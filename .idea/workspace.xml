@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4562737-b523-458f-ac66-f9cd3b18720c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSimpleCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,7 +75,9 @@
       <updated>1678360357213</updated>
       <workItem from="1678360358322" duration="2381000" />
       <workItem from="1678363044299" duration="2576000" />
-      <workItem from="1678553005101" duration="330000" />
+      <workItem from="1678553005101" duration="931000" />
+      <workItem from="1678624963928" duration="1303000" />
+      <workItem from="1683323227687" duration="2709000" />
     </task>
     <task id="LOCAL−00001" summary="first commit">
       <created>1678360844209</created>
@@ -111,6 +114,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
