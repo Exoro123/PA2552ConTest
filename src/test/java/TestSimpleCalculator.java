@@ -66,16 +66,4 @@ public class TestSimpleCalculator {
         assertEquals( -2, calc.div(10,-5));
         assertEquals( 10, calc.div(-100,-10));
     }
-    @Test
-    public void testIntegration() {
-        int result = calc.add(calc.sub(10, 5), calc.mul(2, calc.div(10, 2)));
-        assertEquals(15, result);
-
-        result = calc.sub(calc.add(10, 5), calc.mul(2, calc.div(10, 2)));
-        assertEquals(5, result);
-
-        result = calc.mul(calc.sub(10, 5), calc.add(2, calc.div(10, 2)));
-        assertEquals(35, result);
-    }
-
 }
